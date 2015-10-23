@@ -1,12 +1,12 @@
 # generator-node-bourbon-neat
 
-Rough and (semi)-ready yoeman generator for scaffolding a gulp build system implementing node-bourbon and node-neat.
+Rough and (semi)-ready [yoeman](http://yeoman.io/) generator for scaffolding a gulp build system implementing node-bourbon and node-neat.
 
 ### Instructions
 
 1. [Clone this repository](https://help.github.com/articles/cloning-a-repository/) to a folder on your machine.
 2. `cd` into that folder and run `npm link` - this will allow you to run this generator as if it had been globally installed with using NPM.
-3. If you don't already have it, install [yoeman](http://yeoman.io/) globally with `npm install -g yo
+3. If you don't already have it, install yoeman globally with `npm install -g yo`
 4. Create your project directory and `cd` into it.
 5. Run `npm init`
 6. Run `yo node-bourbon-neat`
