@@ -1,0 +1,15 @@
+{
+  "name": "generator-node-bourbon-neat",
+  "version": "0.1.0",
+  "description": "Yoeman generator for scaffolding a gulp build system implementing node-bourbon and node-neat/",
+  "files": [
+    "generators/app",
+    "generators/router"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.20.3"
+  }
+}
