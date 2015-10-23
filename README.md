@@ -18,7 +18,6 @@ Running the gulp task will generate the following structure
 |-- dist
 |---- css
 |------ styles.css
-
 ```
 
 ### Instructions
