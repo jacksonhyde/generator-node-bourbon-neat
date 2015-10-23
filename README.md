@@ -2,6 +2,25 @@
 
 Rough and (semi)-ready [yoeman](http://yeoman.io/) generator for scaffolding a gulp build system implementing node-bourbon and node-neat.
 
+Creates a file system with the following structure:
+
+```
+|-- gulpfile.js
+|-- src
+|---- scss
+|------ style.scss
+|------ neat-config.css
+```
+
+Running the gulp task will generate the following structure
+
+```
+|-- dist
+|---- css
+|------ styles.css
+
+```
+
 ### Instructions
 
 1. [Clone this repository](https://help.github.com/articles/cloning-a-repository/) to a folder on your machine.
@@ -10,6 +29,7 @@ Rough and (semi)-ready [yoeman](http://yeoman.io/) generator for scaffolding a g
 4. Create your project directory and `cd` into it.
 5. Run `npm init`
 6. Run `yo node-bourbon-neat`
+7. Run `gulp` to run the sass build task and watch for changes in `src/scss/`
 
 **NOTE:** You probably don't want to run this if you've already created a gulpfile. In this instance, take a look at `generators/app/templates/gulpfile.js` and copy across what you need. The important bit is passing the node-bourbon and node-neat paths into the sass task using the `includePaths` build option.
 
